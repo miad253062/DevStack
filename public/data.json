@@ -1,0 +1,134 @@
+[
+  {
+    "id": 1,
+    "name": "React",
+    "description": "A declarative, component-based JavaScript library for building modern user interfaces.",
+    "iconUrl": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg",
+    "category": "Frontend",
+    "complexity": "Beginner-Friendly",
+    "rating": 4.9,
+    "badgeText": "Popular",
+    "badgeColors": "text-blue-600 bg-blue-50"
+  },
+  {
+    "id": 2,
+    "name": "Vue.js",
+    "description": "An approachable, performant, and versatile framework for building web user interfaces.",
+    "iconUrl": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vuejs/vuejs-original.svg",
+    "category": "Frontend",
+    "complexity": "Beginner-Friendly",
+    "rating": 4.8,
+    "badgeText": "Versatile",
+    "badgeColors": "text-emerald-600 bg-emerald-50"
+  },
+  {
+    "id": 3,
+    "name": "Svelte",
+    "description": "Cybernetically enhanced web apps with compile-time reactivity and zero virtual DOM overhead.",
+    "iconUrl": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/svelte/svelte-original.svg",
+    "category": "Frontend",
+    "complexity": "Advanced",
+    "rating": 4.8,
+    "badgeText": "Fast",
+    "badgeColors": "text-orange-600 bg-orange-50"
+  },
+  {
+    "id": 4,
+    "name": "Next.js",
+    "description": "The React framework for full-stack web applications with hybrid static & server rendering.",
+    "iconUrl": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg",
+    "category": "Frontend",
+    "complexity": "Advanced",
+    "rating": 4.9,
+    "badgeText": "Full-Stack",
+    "badgeColors": "text-gray-700 bg-gray-100"
+  },
+  {
+    "id": 5,
+    "name": "Node.js",
+    "description": "An asynchronous event-driven JavaScript runtime built on Chrome's V8 engine.",
+    "iconUrl": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg",
+    "category": "Backend",
+    "complexity": "Intermediate",
+    "rating": 4.8,
+    "badgeText": "Standard",
+    "badgeColors": "text-green-600 bg-green-50"
+  },
+  {
+    "id": 6,
+    "name": "PostgreSQL",
+    "description": "A powerful, open-source object-relational database system with proven reliability.",
+    "iconUrl": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg",
+    "category": "Database",
+    "complexity": "Intermediate",
+    "rating": 4.9,
+    "badgeText": "Top SQL",
+    "badgeColors": "text-indigo-600 bg-indigo-50"
+  },
+  {
+    "id": 7,
+    "name": "Redis",
+    "description": "In-memory data structure store used as a high-speed database, cache, and message broker.",
+    "iconUrl": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/redis/redis-original.svg",
+    "category": "Database",
+    "complexity": "Intermediate",
+    "rating": 4.8,
+    "badgeText": "Cache",
+    "badgeColors": "text-red-600 bg-red-50"
+  },
+  {
+    "id": 8,
+    "name": "JavaScript",
+    "description": "The versatile, ubiquitous scripting language powering dynamic behavior across the web.",
+    "iconUrl": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg",
+    "category": "Language",
+    "complexity": "Beginner-Friendly",
+    "rating": 4.9,
+    "badgeText": "Ubiquitous",
+    "badgeColors": "text-yellow-700 bg-yellow-100"
+  },
+  {
+    "id": 9,
+    "name": "TypeScript",
+    "description": "A strongly typed programming language that builds on JavaScript for robust tooling.",
+    "iconUrl": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg",
+    "category": "Language",
+    "complexity": "Intermediate",
+    "rating": 4.9,
+    "badgeText": "Essential",
+    "badgeColors": "text-blue-700 bg-blue-100"
+  },
+  {
+    "id": 10,
+    "name": "Java",
+    "description": "A secure, object-oriented programming language designed for portability and scale.",
+    "iconUrl": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg",
+    "category": "Language",
+    "complexity": "Intermediate",
+    "rating": 4.6,
+    "badgeText": "Robust",
+    "badgeColors": "text-orange-700 bg-orange-100"
+  },
+  {
+    "id": 11,
+    "name": "Tailwind CSS",
+    "description": "A utility-first CSS framework packed with classes that can be composed to build custom UI.",
+    "iconUrl": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg",
+    "category": "Styling",
+    "complexity": "Beginner-Friendly",
+    "rating": 4.9,
+    "badgeText": "Modern",
+    "badgeColors": "text-cyan-600 bg-cyan-50"
+  },
+  {
+    "id": 12,
+    "name": "Docker",
+    "description": "A platform designed to build, share, and run containerized applications reliably.",
+    "iconUrl": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg",
+    "category": "DevOps",
+    "complexity": "Intermediate",
+    "rating": 4.9,
+    "badgeText": "Containers",
+    "badgeColors": "text-sky-600 bg-sky-50"
+  }
+]
