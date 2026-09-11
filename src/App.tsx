@@ -1,6 +1,7 @@
-import { useState } from "react";
+import { Suspense, useState } from "react";
 import Nav from "./components/Nav";
 import Banner from "./components/Banner";
+import Technologies from "./components/Technologies";
 
 const technologyDataPromise = async() => {
   const requests = await fetch('/data.json')
@@ -15,6 +16,9 @@ function App(){
     <>
     <Nav/>
     <Banner/>
+    <Suspense fallback={<p>loading...</p>}>
+      <Technologies technologyData={technologyData}/>
+    </Suspense>
     </>
     
   )
