@@ -1,5 +1,6 @@
 import { useState } from "react";
 import Nav from "./components/Nav";
+import Banner from "./components/Banner";
 
 const technologyDataPromise = async() => {
   const requests = await fetch('/data.json')
@@ -13,6 +14,7 @@ function App(){
   return (
     <>
     <Nav/>
+    <Banner/>
     </>
     
   )
