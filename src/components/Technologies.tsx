@@ -33,9 +33,9 @@ function Technologies({technologyData}: TechnologiesProp){
 
     return (
         <section className="container mx-auto mt-10 text-center md:text-left space-y-2 px-4">
-            <h1 className="text-4xl font-bold">Explore the <span className="text-pink-500 ">Technologies</span></h1>
+            <h1 className="text-3xl md:text-4xl font-bold">Explore the <span className="text-pink-500 ">Technologies</span></h1>
             <p className="text-gray-500">Pick one technology per category to build your ideal stack.</p>
-            <div className="grid gap-3 grid-cols-1 md:grid-cols-4">
+            <div className="grid gap-3 grid-cols-1 md:grid-cols-4 mt-10">
                 <div className="md:col-span-3">
                     <div className="grid-cols-1 grid md:grid-cols-3 gap-4">
                         {

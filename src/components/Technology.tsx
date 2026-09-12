@@ -13,7 +13,7 @@ function Technology({tech, handleStack, isSelected}: TechnologyProp){
     }
 
     return (
-        <div className="flex flex-col border border-gray-200 rounded-2xl p-4 relative space-y-4 hover:scale-105 hover:transform hover:duration-300">
+        <div className={`flex flex-col border border-gray-200 rounded-2xl p-4 relative space-y-4 hover:scale-105 hover:transform hover:duration-300 ${isSelected && 'border-3 border-pink-300'}`}>
             <p className={`absolute top-3 right-3 p-2 border rounded-2xl ${tech.badgeColors}`}>{tech.badgeText}</p>
             <div className="space-y-4 flex gap-2 items-center md:flex-col md:items-start">
                 <img className="h-10 flex m" src={tech.iconUrl} alt="" />
