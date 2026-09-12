@@ -13,7 +13,7 @@ function Banner() {
               project.
             </p>
             <div className="flex gap-4">
-                <button className="px-4 py-2 bg-linear-to-r from-orange-600 via-orange-500 to-pink-400 rounded-[10px] cursor-pointer text-white">Explore Technologies</button>
+                <button className="px-4 py-2 bg-linear-to-r from-orange-500 via-pink-500 to-violet-500 rounded-[10px] cursor-pointer text-white">Explore Technologies</button>
                 <button className="px-4 py-2 outline-1 outline-gray-300 rounded-xl cursor-pointer">Learn More</button>
             </div>
             
