@@ -4,10 +4,10 @@
 This is a simple react based single page website, there are difference types of technologies card where you can add, delete card from stack also you can remove all the stack by clicking the remove all button
 
 ## 💻 Technologies Used
-**React**
-**Tailwind CSS**
-**React Toastify** 
-**React Icons**
+1. **React**
+2. **Tailwind CSS**
+3. **React Toastify** 
+4. **React Icons**
 
 ## ✨ Key Features
 1. **Dynamic Data Rendering:** Efficiently fetches and displays data from a JSON file
