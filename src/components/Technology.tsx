@@ -28,7 +28,7 @@ function Technology({tech, handleStack, isSelected}: TechnologyProp){
                     <span className="text-yellow-500 text-xl"><TiStarFullOutline/></span><p>{tech.rating}</p>
                 </div>
             </div>
-            <button onClick={() => handleClick(tech)} disabled={isSelected} className="w-full py-2 rounded-xl bg-gray-900 hover:bg-gray-800 text-white bottom-0 cursor-pointer disabled:bg-gray-400 disabled:cursor-not-allowed">{(isSelected)? 'Added': 'Add to Stack'}</button>
+            <button onClick={() => handleClick(tech)} disabled={isSelected} className="w-full py-2 rounded-xl bg-gray-900 hover:bg-gray-800 text-white bottom-0 cursor-pointer disabled:bg-gray-400 disabled:cursor-not-allowed">{(isSelected)?  '✓ Added to Stack': 'Add to Stack'}</button>
         </div>
     )
 }

@@ -22,13 +22,13 @@ function Technologies({technologyData}: TechnologiesProp){
         if(exist){
             const remaining: TechnologyType[] = selectedItems.filter(tech => tech.id !== technology.id)
             setSelectedItems(remaining)
-            toast.error(`${technology.name} Removed from the Stack!`)
+            toast.warn(`${technology.name} Removed from the Stack!`)
         }
     }
 
     const removeAll = () => {
         setSelectedItems([])
-        toast.error('All technologies has been removed')
+        toast.warn('All technologies has been removed')
     }
 
     return (
