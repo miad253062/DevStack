@@ -4,9 +4,10 @@
 This is a simple react based single page website, there are difference types of technologies card where you can add, delete card from stack also you can remove all the stack by clicking the remove all button
 
 ## 💻 Technologies Used
-* **Frontend:** React, Tailwind CSS
-* **State & Data Management:** React Hooks, JSON
-* **Tools:** Vite Create React App, Git, GitHub
+**React**
+**Tailwind CSS**
+**React Toastify** 
+**React Icons**
 
 ## ✨ Key Features
 1. **Dynamic Data Rendering:** Efficiently fetches and displays data from a JSON file
